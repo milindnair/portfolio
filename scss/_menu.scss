@@ -8,7 +8,7 @@
   cursor: pointer;
   @include transition-ease;
 
-  &_burger {
+  &__burger {
     position: absolute;
     right: 0;
     top: 0.5rem;
@@ -104,7 +104,7 @@
       @include transition-ease;
 
       &:hover {
-        color: $secondary-color;
+        color: $third-color;
       }
     }
   }
