@@ -10,7 +10,7 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/portfolio-sass-master/dist/img/profile1.jpg") right;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/dist/img/profile1.jpg") right;
   background-size: cover;
 }
 .home__name {
@@ -144,7 +144,7 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/portfolio-sass-master/dist/img/profile1.jpg") center top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/dist/img/profile1.jpg") center top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -195,7 +195,7 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/portfolio-sass-master/dist/img/profile1.jpg") top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/dist/img/profile1.jpg") top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -274,7 +274,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/portfolio-sass-master/dist/img/profile1.jpg") top;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("/dist/img/profile1.jpg") top;
   background-size: cover;
 }
 .contact h2 {
@@ -296,7 +296,6 @@
   .menu-btn {
     visibility: hidden;
   }
-
   .nav {
     visibility: visible;
   }
@@ -314,11 +313,9 @@
   .nav .menu-nav__link {
     font-size: 1.5rem;
   }
-
   .about__bio {
     font-size: 1.5rem;
   }
-
   .projects__bio-image {
     height: 40vh;
   }
@@ -328,7 +325,6 @@
   .projects .text-secondary {
     font-size: 3rem;
   }
-
   .contact__list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -337,7 +333,6 @@
   .projects__items {
     grid-template-columns: repeat(3, 1fr);
   }
-
   .contact__list {
     grid-template-columns: repeat(3, 1fr);
   }
