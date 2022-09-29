@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass scss/main.scss styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milindnair/portfolio.git"
+  },
+  "author": "Milind Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milindnair/portfolio/issues"
+  },
+  "homepage": "https://github.com/milindnair/portfolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
